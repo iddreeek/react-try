@@ -51,3 +51,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.michroma {
+  font-family: var(--font-michroma);
+}
+
+.anton {
+  font-family: var(--font-anton);
+}
+
+.lato {
+  font-family: var(--font-lato);
+}
+
+.press-start {
+  font-family: var(--font-press-start);
+}

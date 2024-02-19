@@ -5,8 +5,8 @@ export default function Home() {
     <main className="w-full h-[calc(100vh-64px)] translate-y-16">
       <div className="flex flex-col md:flex-row lg:flex-row justify-start md:justify-center lg:justify-center items-center p-4 w-full h-full bg-zinc-900">
         {/* Image wrapper */}
-        <div className="mx-4 mt-4 md:w-[30vw] lg:w-[30vw] mb-10 h-[35vh] md:h-auto lg:mt-0 md:mt-0">
-          <div className="w-auto h-full flex justify-center items-center bg-black rounded-full overflow-hidden shadow-lg shadow-green-500">
+        <div className="mx-4 mt-4 md:w-[30vw] mb-10 h-[35vh] w-[35vh] md:h-auto lg:mt-0 md:mt-0">
+          <div className="w-full h-full flex justify-center items-center">
             <img
               src="/images/profile.png"
               className="w-auto h-full"
@@ -42,10 +42,10 @@ export default function Home() {
         </div>
         {/* Intro wrapper */}
         <div className="mx-4 mt-6 md:w-[70vw] lg:w-[70vw] text-center md:text-start">
-          <h1 className="text-xl md:text-3xl text-white">
-            Hello, I am Edric Jay M. Rivas, an aspiring {'<'}Web Developer{'/>'}.
+          <h1 className="text-xl md:text-3xl text-white lato">
+            Hello, I am Edric Jay M. Rivas, an aspiring <span className=" text-green-400 font-bold">{'<'}Web Developer{'/>'}</span>.
           </h1>
-          <p className="text-base md:text-lg text-white text-center md:text-start">
+          <p className="text-base md:text-lg text-white text-center md:text-start lato">
             Bachelor's Degree in Information Technology at Polytechnic
             University of the Philippines
           </p>

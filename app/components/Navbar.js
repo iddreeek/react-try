@@ -16,18 +16,18 @@ export default function Navbar() {
         <nav className=" flex justify-between p-4 mx-4 ">
           <div className=" flex">
             <Link href={"/"}>
-              <h1 className=" text-green-400 text-xl font-bold">
-                Edric
+              <h1 className=" text-green-400 text-xl font-bold press-start">
+                e
                 <span className=" ml-1 relative">
                   <span className=" block absolute -inset-1 -skew-y-3 bg-green-400 rounded-xl"></span>
                   <span className=" text-black text-xl relative font-extrabold">
-                    Jay
+                    jay
                   </span>
                 </span>
               </h1>
             </Link>
           </div>
-          <div className="hidden text-green-400 text-xl md:flex lg:flex font-bold">
+          <div className="hidden text-green-400 text-xl md:flex lg:flex font-bold lato">
             <ul>
               <Link href={"/projects"} className=" p-4 ">
                 Projects
@@ -48,13 +48,13 @@ export default function Navbar() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="w-8 h-8"
+                    className="w-8 h-8"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M6 18 18 6M6 6l12 12"
                     />
                   </svg>
@@ -63,13 +63,13 @@ export default function Navbar() {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="w-8 h-8"
+                    className="w-8 h-8"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="m19.5 8.25-7.5 7.5-7.5-7.5"
                     />
                   </svg>
