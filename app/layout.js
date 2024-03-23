@@ -1,6 +1,6 @@
 import { Inter, Michroma, Anton, Lato, Press_Start_2P } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
