@@ -12,7 +12,7 @@ export default function Projects() {
       <div className=" h-full w-full mx-auto">
         {
           projects.map((p) => (
-            <ProjectCards key={p.ID} title={p.Title} src={p.Img_URL} desc={p.Description} stack={p.Stack} />
+            <ProjectCards key={p.ID} title={p.Title} src={p.Img_URL} desc={p.Description} stack={p.Stack} link={p.Link}/>
           ))
         }
       </div>

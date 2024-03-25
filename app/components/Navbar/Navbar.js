@@ -35,7 +35,7 @@ export default function Navbar() {
               <Link href={"/"} className=" p-4 ">
                 About
               </Link>
-              <Link href={"/"} className=" p-4 ">
+              <Link href="/files/resume.pdf" target="_blank" className=" p-4 ">
                 Resume
               </Link>
             </ul>
