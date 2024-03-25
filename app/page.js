@@ -27,7 +27,7 @@ export default function Home() {
               </a>
             </div>
             <div className="px-2 w-fit text-green-600 hover:scale-125 duration-500 ease-in-out transition">
-              <a href="https://github.com/iddreeek/">
+              <a href="https://www.linkedin.com/in/edric-jay-rivas-b62006265/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
