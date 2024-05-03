@@ -7,7 +7,7 @@ export const ProjectCards = ({ title, src, desc, stack, link }) => {
         <main className=' w-full h-full flex items-center justify-center'>
             <div className='h-full w-[80%] flex flex-col justify-center items-center text-black'>
                 <div className='h-[20%] p-4 font-bold text-xl text-green-400'>
-                    <Link href={link}>{title}</Link>
+                    <Link href={link} className=' underline'>{title}</Link>
                 </div>
                 <div className='w-full h-full p-4 relative'>
                     <Image src={src} alt={title} fill className=' object-contain'></Image>
