@@ -76,10 +76,10 @@ const projects = [
         ]
     },{
         ID: 3,
-        Title: "WIP Blog Site project",
-        Img_URL: "/images/BlogSite.png",
-        Description: " Blogging Site with functionalities(working in progress)",
-        Link: "https://blog-site-vert-xi.vercel.app",
+        Title: "BlogIt",
+        Img_URL: "/images/blogit.png",
+        Description: " Blogging site with some functionalities",
+        Link: "https://blogit-iddreeek.vercel.app",
         Stack: [
             {
                 ID: 1,
